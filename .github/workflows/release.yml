@@ -82,7 +82,6 @@ jobs:
           mkdir x-ui/bin
           cd x-ui/bin
           
-          # Download dependencies
           Xray_URL="https://github.com/XTLS/Xray-core/releases/download/v25.1.1/"
           if [ "${{ matrix.platform }}" == "amd64" ]; then
             wget -q ${Xray_URL}Xray-linux-64.zip
